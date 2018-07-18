@@ -1,0 +1,6 @@
+framework module Pods_SerenaDominguezE3 {
+  umbrella header "Pods-SerenaDominguezE3-umbrella.h"
+
+  export *
+  module * { export * }
+}

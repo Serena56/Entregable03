@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044501BE20FEA1A400E51373 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044501BD20FEA1A400E51373 /* SearchViewController.swift */; };
+		044501C820FEA2BE00E51373 /* ContenidoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044501C720FEA2BE00E51373 /* ContenidoTableViewController.swift */; };
+		046956BD20FEAB53002C271A /* ContenidoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046956BC20FEAB53002C271A /* ContenidoTableViewCell.swift */; };
+		046956BF20FEAF4F002C271A /* ContenidoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046956BE20FEAF4F002C271A /* ContenidoService.swift */; };
+		046956C120FEAF60002C271A /* ContenidoDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046956C020FEAF60002C271A /* ContenidoDAO.swift */; };
+		046956C320FEAF83002C271A /* Contenido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046956C220FEAF83002C271A /* Contenido.swift */; };
+		046956C720FF1C69002C271A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046956C620FF1C68002C271A /* DetailViewController.swift */; };
+		10EFD27B9C1F7587415CA9FF /* Pods_SerenaDominguezE3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF62A090560AD34AC690FAC6 /* Pods_SerenaDominguezE3.framework */; };
 		1397130C20FD3C6A008DDF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397130B20FD3C6A008DDF95 /* AppDelegate.swift */; };
-		1397130E20FD3C6A008DDF95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1397130D20FD3C6A008DDF95 /* ViewController.swift */; };
 		1397131120FD3C6A008DDF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1397130F20FD3C6A008DDF95 /* Main.storyboard */; };
 		1397131320FD3C6A008DDF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1397131220FD3C6A008DDF95 /* Assets.xcassets */; };
 		1397131620FD3C6A008DDF95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1397131420FD3C6A008DDF95 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044501BD20FEA1A400E51373 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		044501C720FEA2BE00E51373 /* ContenidoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenidoTableViewController.swift; sourceTree = "<group>"; };
+		046956BC20FEAB53002C271A /* ContenidoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenidoTableViewCell.swift; sourceTree = "<group>"; };
+		046956BE20FEAF4F002C271A /* ContenidoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenidoService.swift; sourceTree = "<group>"; };
+		046956C020FEAF60002C271A /* ContenidoDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenidoDAO.swift; sourceTree = "<group>"; };
+		046956C220FEAF83002C271A /* Contenido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contenido.swift; sourceTree = "<group>"; };
+		046956C620FF1C68002C271A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1397130820FD3C6A008DDF95 /* SerenaDominguezE3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerenaDominguezE3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1397130B20FD3C6A008DDF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1397130D20FD3C6A008DDF95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1397131020FD3C6A008DDF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1397131220FD3C6A008DDF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1397131520FD3C6A008DDF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1397131720FD3C6A008DDF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227D9817D3DD5F5DC385D631 /* Pods-SerenaDominguezE3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerenaDominguezE3.release.xcconfig"; path = "Pods/Target Support Files/Pods-SerenaDominguezE3/Pods-SerenaDominguezE3.release.xcconfig"; sourceTree = "<group>"; };
+		56FD3CC2567184AE1871DB19 /* Pods-SerenaDominguezE3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerenaDominguezE3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SerenaDominguezE3/Pods-SerenaDominguezE3.debug.xcconfig"; sourceTree = "<group>"; };
+		CF62A090560AD34AC690FAC6 /* Pods_SerenaDominguezE3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SerenaDominguezE3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10EFD27B9C1F7587415CA9FF /* Pods_SerenaDominguezE3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044501BF20FEA1CF00E51373 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1397131420FD3C6A008DDF95 /* LaunchScreen.storyboard */,
+				1397130F20FD3C6A008DDF95 /* Main.storyboard */,
+				1397131220FD3C6A008DDF95 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		044501C020FEA1F400E51373 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044501BD20FEA1A400E51373 /* SearchViewController.swift */,
+				044501C720FEA2BE00E51373 /* ContenidoTableViewController.swift */,
+				046956C620FF1C68002C271A /* DetailViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		044501C120FEA20100E51373 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046956BC20FEAB53002C271A /* ContenidoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044501C220FEA20B00E51373 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				046956BE20FEAF4F002C271A /* ContenidoService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		044501C420FEA22000E51373 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				046956C020FEAF60002C271A /* ContenidoDAO.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		044501C520FEA22E00E51373 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046956C220FEAF83002C271A /* Contenido.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044501C620FEA23400E51373 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1397130B20FD3C6A008DDF95 /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		139712FF20FD3C6A008DDF95 = {
 			isa = PBXGroup;
 			children = (
 				1397130A20FD3C6A008DDF95 /* SerenaDominguezE3 */,
 				1397130920FD3C6A008DDF95 /* Products */,
+				EE8B549620BD7733930D8B44 /* Pods */,
+				3CEEEDB0E6BAAF8CA8F44DB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +133,33 @@
 		1397130A20FD3C6A008DDF95 /* SerenaDominguezE3 */ = {
 			isa = PBXGroup;
 			children = (
-				1397130B20FD3C6A008DDF95 /* AppDelegate.swift */,
-				1397130D20FD3C6A008DDF95 /* ViewController.swift */,
-				1397130F20FD3C6A008DDF95 /* Main.storyboard */,
-				1397131220FD3C6A008DDF95 /* Assets.xcassets */,
-				1397131420FD3C6A008DDF95 /* LaunchScreen.storyboard */,
 				1397131720FD3C6A008DDF95 /* Info.plist */,
+				044501C620FEA23400E51373 /* Main */,
+				044501C520FEA22E00E51373 /* Model */,
+				044501C420FEA22000E51373 /* DAO */,
+				044501C220FEA20B00E51373 /* Service */,
+				044501C120FEA20100E51373 /* View */,
+				044501C020FEA1F400E51373 /* View Controller */,
+				044501BF20FEA1CF00E51373 /* Resources */,
 			);
 			path = SerenaDominguezE3;
+			sourceTree = "<group>";
+		};
+		3CEEEDB0E6BAAF8CA8F44DB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF62A090560AD34AC690FAC6 /* Pods_SerenaDominguezE3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE8B549620BD7733930D8B44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56FD3CC2567184AE1871DB19 /* Pods-SerenaDominguezE3.debug.xcconfig */,
+				227D9817D3DD5F5DC385D631 /* Pods-SerenaDominguezE3.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1397131A20FD3C6B008DDF95 /* Build configuration list for PBXNativeTarget "SerenaDominguezE3" */;
 			buildPhases = (
+				33577677755D0E40B568329F /* [CP] Check Pods Manifest.lock */,
 				1397130420FD3C6A008DDF95 /* Sources */,
 				1397130520FD3C6A008DDF95 /* Frameworks */,
 				1397130620FD3C6A008DDF95 /* Resources */,
+				1093672144186BA36BCCBE53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +230,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1093672144186BA36BCCBE53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SerenaDominguezE3/Pods-SerenaDominguezE3-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SerenaDominguezE3/Pods-SerenaDominguezE3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33577677755D0E40B568329F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SerenaDominguezE3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1397130420FD3C6A008DDF95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1397130E20FD3C6A008DDF95 /* ViewController.swift in Sources */,
+				046956C120FEAF60002C271A /* ContenidoDAO.swift in Sources */,
+				046956C320FEAF83002C271A /* Contenido.swift in Sources */,
+				044501C820FEA2BE00E51373 /* ContenidoTableViewController.swift in Sources */,
+				046956BF20FEAF4F002C271A /* ContenidoService.swift in Sources */,
+				046956BD20FEAB53002C271A /* ContenidoTableViewCell.swift in Sources */,
+				044501BE20FEA1A400E51373 /* SearchViewController.swift in Sources */,
 				1397130C20FD3C6A008DDF95 /* AppDelegate.swift in Sources */,
+				046956C720FF1C69002C271A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +418,7 @@
 		};
 		1397131B20FD3C6B008DDF95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FD3CC2567184AE1871DB19 /* Pods-SerenaDominguezE3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -285,6 +433,7 @@
 		};
 		1397131C20FD3C6B008DDF95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227D9817D3DD5F5DC385D631 /* Pods-SerenaDominguezE3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
