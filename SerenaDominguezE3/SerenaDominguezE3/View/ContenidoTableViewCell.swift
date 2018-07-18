@@ -22,7 +22,11 @@ class ContenidoTableViewCell: UITableViewCell {
        
     if let elResultado = self.resultado as? Contenido {
       self.nombreLabel.text = elResultado.nombreUsuario
-      self.fechaLabel.text = elResultado.creationDate
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy'-'MM'-'dd'T'HH':'mm':'ssZZZ"
+        guard let date = dateFormatter.date(from: elResultado.creationDate) else {return}
+        dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
+        self.fechaLabel.text = dateFormatter.string(from: date)
         let urlPrincipal = URL(string: elResultado.urlStringPhoto)
         principalImagee.kf.setImage(with: urlPrincipal)
         let urlAv = URL(string: elResultado.urlStringAvatar)

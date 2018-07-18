@@ -23,7 +23,11 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         nomreLabel.text = contenido?.nombreUsuario
-        ubicacionLabel.text = contenido?.creationDate
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy'-'MM'-'dd'T'HH':'mm':'ssZZZ"
+        guard let date = dateFormatter.date(from: (contenido?.creationDate)!) else {return}
+        dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
+        self.ubicacionLabel.text = dateFormatter.string(from: date)
         biografiaLabel.text = contenido?.biografiaUsuario
         let urlPrincipal = URL(string: (contenido?.urlStringPhoto)!)
         imagenPrincipal.kf.setImage(with: urlPrincipal)

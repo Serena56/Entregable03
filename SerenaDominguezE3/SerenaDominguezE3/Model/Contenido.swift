@@ -17,7 +17,7 @@ class Contenido {
     
     init(dictionary: [String: AnyObject]) {
         self.creationDate = dictionary["created_at"] as? String ?? "no info"
-        self.biografiaUsuario = dictionary["description"] as? String ?? "no info"
+        self.biografiaUsuario = dictionary["description"] as? String ?? "NO INFO"
         if let theUser = dictionary["user"] as? [String:AnyObject] {
             self.nombreUsuario = theUser["name"] as? String ?? "no info"
             if let theProfileImage = theUser["profile_image"] as? [String:AnyObject] {
