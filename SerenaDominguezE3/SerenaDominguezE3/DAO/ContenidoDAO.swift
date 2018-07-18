@@ -12,20 +12,16 @@ class ContenidoDAO {
     
     
  func getContentFromAPI( query: String , daoCompleted: @escaping (([Contenido]) -> Void)) -> Void {
-        let searchUrl = "https://api.unsplash.com/search/photos/:id/?client_id=3191679cf58cd03731de7a82e3c2ca92e667448b6c892673787d191a03932068/?page=1&query=\(query)"
-//        let  client_id = "3191679cf58cd03731de7a82e3c2ca92e667448b6c892673787d191a03932068"
+        let searchUrl = "https://api.unsplash.com/search/photos/?client_id=3191679cf58cd03731de7a82e3c2ca92e667448b6c892673787d191a03932068&page=1&query=\(query)"
     Alamofire.request(searchUrl).responseJSON { (resultados) in
         if let mainDictionary = resultados.result.value as? [String:AnyObject] {
             if let results = mainDictionary["results"] as? [[String:AnyObject]] {
-//                if let losResultados = results["user"] as? [String:AnyObject] {
                  var resultadosArray:[Contenido] = []
                   for aDictionary in results {
                     let newResultado = Contenido(dictionary: aDictionary)
                     resultadosArray.append(newResultado)
                 }
                 daoCompleted(resultadosArray)
-//            }
-           
           }
         }
     }

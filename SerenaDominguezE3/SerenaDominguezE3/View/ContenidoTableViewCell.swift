@@ -23,12 +23,10 @@ class ContenidoTableViewCell: UITableViewCell {
     if let elResultado = self.resultado as? Contenido {
       self.nombreLabel.text = elResultado.nombreUsuario
       self.fechaLabel.text = elResultado.creationDate
-        
-      let urlPhoto = elResultado.urlStringPhoto
-        principalImagee.kf.setImage(with: urlPhoto as? Resource)
-      
-        let urlAv = elResultado.urlStringAvatar
-        avatarImagee.kf.setImage(with: urlAv as? Resource)
+        let urlPrincipal = URL(string: elResultado.urlStringPhoto)
+        principalImagee.kf.setImage(with: urlPrincipal)
+        let urlAv = URL(string: elResultado.urlStringAvatar)
+        avatarImagee.kf.setImage(with: urlAv)
         
      }
     }

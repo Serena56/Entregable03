@@ -15,8 +15,9 @@ class ContenidoTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.title = query
+      
+        var titulo = query
+        self.title = titulo?.uppercased()
         
         let contenidoService = ContenidoService()
         

@@ -21,16 +21,14 @@ class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         nomreLabel.text = contenido?.nombreUsuario
         ubicacionLabel.text = contenido?.creationDate
         biografiaLabel.text = contenido?.biografiaUsuario
-        
-        let urlPhoto = contenido?.urlStringPhoto
-        imagenPrincipal.kf.setImage(with: urlPhoto as? Resource)
-        
-        let urlAv = contenido?.urlStringAvatar
-        avatarImagen.kf.setImage(with: urlAv as? Resource)
+        let urlPrincipal = URL(string: (contenido?.urlStringPhoto)!)
+        imagenPrincipal.kf.setImage(with: urlPrincipal)
+        let urlAv = URL(string: (contenido?.urlStringAvatar)!)
+        avatarImagen.kf.setImage(with: urlAv)
     }
 
     override func didReceiveMemoryWarning() {
